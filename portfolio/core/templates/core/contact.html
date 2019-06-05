@@ -1,0 +1,30 @@
+{% extends "core/base.html" %}
+
+
+
+<title>{%block title %}Contato{% endblock %}</title>
+
+{% block background %}{% load static %}{% static 'core/img/contact-bg.jpg' %}{% endblock %}
+
+{% block header%}
+  <h1>Contato</h1>
+  <h4 class="subheading">Fale comigo quando quiser!</h4>
+{% endblock%}  
+
+{% block content%}
+    <!-- Contenido Principal -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>Você pode me mandar um e-mail ou me chamar nas redes sociais abaixo.</p>
+          <br>
+          <p><b>Telefone:</b> +55 12 98262-8282</p>
+          <p><b>Horários:</b> Segunda à Sexta das 08 da manhã as 18 horas.</p>
+          <br>
+          <a class="btn btn-primary" href="https://drive.google.com/open?id=0B4NQVMm5v1YMTlNIbWtGeWF0RFkzMEJIdW5jTFVmNkxtbmZN" role="button">Baixe meu currículo</a>
+          <br>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}

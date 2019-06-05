@@ -1,0 +1,27 @@
+{% extends "core/base.html" %}
+{% load static %}
+
+{%block title %}Página Principal{% endblock %}
+
+
+<script src="//cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+{% block background %} {% static 'core/img/home-bg.jpg' %}{% endblock %}
+
+{% block content%}
+
+{% block header%}
+  <h1>Kaio Prado</h1>
+  <h4 class="subheading">Analista de Sistemas</h4>
+{% endblock%}      
+<div style="text-align: justify;">
+    <p>Olá mundo! Sou graduando em Tecnologia em Análise e Desenvolvimento de sistemas no IFSP Campos do Jordão.  Atualmente trabalho como analista de infraestrutura de TI e trabalho também com o desenvolvimento de websites em javascript, html5, css, bootstrap, e sempre acompanho dicas de UX Experience para melhorar os meus projetos.
+      Quero estudar mais sobre ciência de dados e aprender melhor inglês e português.
+      Quero terminar uma lista de livros<i>por ler </i> que escrevi em 2012 quando sai do colégio e 
+      Quero também construir um jardim, porém gosto muito de dormir e isso me deixa um pouco mais longe dos meus sonhos. </p>
+    <br>
+      <h4>Preciso praticar!</h4>
+</div>
+
+
+{% endblock%}
